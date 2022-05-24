@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+                function saludo(nombre = document.getElementById(" nombre ")){
+                alert(`Hola ${nombre.value}, bienvenida a éste sitio`);
+                document.write(" Hola " + nombre.value + " ")
+            }
+
+    </script>
+    <form>
+        <label> Escriba su nombre aqui</label>
+         <input type="text" id =" nombre ">
+         <button onclick="saludo()">Saludar</button>
+    </form>
+</body>
+</html>
